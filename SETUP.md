@@ -14,7 +14,7 @@ Everything needed to get this profile README live on `github.com/Tan0610`.
 
 ```bash
 git init
-git add README.md SETUP.md .github/workflows/snake.yml
+git add README.md SETUP.md .github/workflows/profile-3d.yml
 git commit -m "feat: add profile README"
 git branch -M main
 git remote add origin https://github.com/Tan0610/Tan0610.git
@@ -25,42 +25,29 @@ If the repo is private, the profile README will not show. Make it public.
 
 ---
 
-## 2. Fill in every placeholder
+## 2. Keeping the README current
 
-The README ships with **zero real facts** — every slot is a `[bracketed]` placeholder.
-Find them all:
+Every slot is filled with real details — no `[bracketed]` placeholder is left. This section is
+about where to edit when something changes.
 
-```bash
-grep -n "\[" README.md
-```
-
-(On Windows PowerShell: `Select-String -Path README.md -Pattern "\[" | Select-Object LineNumber, Line`)
-
-Work top to bottom and replace each one. Nothing should still contain `[` when you publish,
-except the markdown link syntax `[![LinkedIn](...)](...)` in the contact block — leave those
-brackets, but do replace `[linkedin-handle]` and `[you@email.com]` inside the URLs.
-
-Placeholders to fill:
-
-| Section | Placeholders |
+| Change | Where to edit |
 | --- | --- |
-| Header | `[Your Name]`, `[Role]`, `[Focus area]`, `[Notable credential]` |
-| About Me | `[Degree]`, `[College]`, `[Branch/Major]`, `[Month Year]`, `[Role]`, `[Company]`, `[Award]`, `[Event]`, `[project-name]`, `[metric]`, `[opportunity type]` |
-| Experience | `[Role]`, `[Company]`, `[Month Year]`, `[Thing you built]`, `[metric]`, `[System or integration]`, `[Collaboration or ownership]` |
-| Achievements | `[Award / Placement]`, `[project-name]`, `[Event]`, `[Month Year]` |
-| Featured Projects | `[project-name]`, `[Stack]`, `[distinguishing technical concept]`, `[outcome]`, `[constraint]` |
-| Let's Connect | `[linkedin-handle]`, `[you@email.com]` |
+| New role or fellowship | **💼 Experience** — add a `### <emoji> Role — Company (Month Year – Present)` block, newest first, with a one-line summary and the usual bullets. |
+| New award or placement | **🏆 Achievements** — add a row: award, project, event. |
+| New project | **📌 Featured Projects** — add a row: project name linked to its repo, stack in backticks, and what it does with the one distinguishing technical concept in bold. |
+| New technology | **🛠️ Tech Stack** — add a badge to whichever of the four labelled groups fits (Languages, Frontend & Backend, Databases & Tools, AI & Web3). Badge URL shape and the simpleicons.org slug lookup are in section 4. |
+| Changed contact details | **📫 Let's Connect** — the LinkedIn, Gmail and GitHub badge link targets. |
 
-Also: delete the second Experience block if you only have one role, or duplicate it (instructions
-are in the HTML comment above it) if you have more.
+Whatever you add, keep the heading, bullet and divider conventions in section 5 intact.
 
 ---
 
-## 3. Snake animation
+## 3. 3D contribution calendar
 
-The workflow is at `.github/workflows/snake.yml`. It uses `Platane/snk@v3` to render the
-contribution grid as a snake game, and `crazy-max/ghaction-github-pages@v4` to push the
-generated `dist/` folder to a branch called `output`.
+The workflow is at `.github/workflows/profile-3d.yml`. It uses
+`yoshi389111/github-profile-3d-contrib@v0.9.3` to render the contribution grid as an isometric
+3D calendar, then commits the generated SVGs into a `profile-3d-contrib/` directory **on `main`**.
+There is no separate output branch.
 
 Steps:
 
@@ -68,26 +55,46 @@ Steps:
 2. Go to the repo's **Actions** tab. On a fresh repo GitHub asks you to enable workflows —
    click **"I understand my workflows, go ahead and enable them"**.
 3. Check **Settings → Actions → General → Workflow permissions** and make sure
-   **"Read and write permissions"** is selected. Without it the push to `output` fails with a 403.
-4. Select the **Generate Snake** workflow in the sidebar and click **Run workflow**
+   **"Read and write permissions"** is selected. The workflow needs `contents: write` to commit
+   the SVGs back to `main`; without it the commit fails with a 403.
+4. Select the **GitHub Profile 3D Contrib** workflow in the sidebar and click **Run workflow**
    (this is the `workflow_dispatch` trigger). Run it against `main`.
-5. When it goes green, confirm a branch named `output` now exists and contains
-   `github-snake.svg`, `github-snake-dark.svg`, and `github-snake.gif`.
-6. Reload your profile. The `<picture>` block in the README will now resolve.
+5. When it goes green, confirm `profile-3d-contrib/` exists on `main` and contains
+   `profile-night-view.svg` and `profile-season-animate.svg` — the dark and light images the
+   **🧊 Contribution Calendar** section points at via raw URLs on `main`.
+6. Reload your profile. The `<picture>` block in that section will now resolve.
 
-Until step 5 completes, the snake images **404** — that is expected, not a broken README.
+This has already run successfully, so the SVGs are on `main` today. On a fresh clone, until
+step 5 completes the calendar images **404** — that is expected, not a broken README.
 
-After that the workflow re-runs every 12 hours on a cron, plus on every push to `main`.
-Note that GitHub disables scheduled workflows on repos with no activity for 60 days;
+After that the workflow re-runs daily at 18:00 UTC on a cron (`0 18 * * *`), plus on every push
+to `main`. Note that GitHub disables scheduled workflows on repos with no activity for 60 days;
 a single commit re-enables them.
+
+### Self-hosted stats widgets
+
+The **📊 GitHub Stats** card and the **🏅 Trophy Case** do not use the public upstream instances —
+they point at personal Vercel deployments, both already configured:
+
+| Widget | Deployment | Required env vars |
+| --- | --- | --- |
+| github-readme-stats | `https://github-readme-stats-six-lake-40.vercel.app` | `PAT_1` |
+| github-profile-trophy | `https://github-profile-trophy-eight-kohl.vercel.app` | `GITHUB_TOKEN1`, `GITHUB_TOKEN2` |
+
+The runbook for both lives at `D:\github\vercel-widgets\DEPLOY.md`.
+
+The stats card currently reports roughly **188 total commits** rather than the full history:
+the configured PAT carries `public_repo` scope only. Granting it full `repo` scope would pull
+private-repo commits into the count as well.
 
 ---
 
-## 4. Swap the placeholder tech stack
+## 4. Tech stack badges
 
-The badges under **🛠️ Tech Stack** are a plausible generic stack (C++, Python, TypeScript, Java,
-React, Next.js, Node.js, Tailwind, PostgreSQL, MySQL, Docker, Git, TensorFlow, PyTorch,
-scikit-learn, OpenAI). **These are placeholders too.** Replace them with the real stack.
+The badges under **🛠️ Tech Stack** are the real stack, split across four labelled groups —
+Languages (TypeScript, Python, Java, C++), Frontend & Backend (React, Next.js, Node.js, Fastify,
+Spring Boot), Databases & Tools (PostgreSQL, Supabase, Prisma, Docker, Git) and AI & Web3
+(OpenAI, Solidity, Hardhat, IPFS, Ethereum). Add new ones to the group they belong to.
 
 Badge URL shape — keep it identical for every badge:
 
@@ -120,10 +127,14 @@ bump it to `181717` as well.
 The README follows a deliberate flat, left-aligned, text-first style. If you extend it:
 
 - **Never** add `align="center"`, `<div align="center">`, or `<p align="center">`.
-- Every top-level section is `## <emoji> <2-3 word title>` followed by content, then a `---` divider.
+- Every top-level section is `## <emoji> <2-3 word title>` followed by content, then a gradient
+  divider — not a `---` rule:
+  `![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)`
 - Every bullet follows `- <emoji> **Bold lead-in** — plain explanation`.
-- No typing-SVG banner, no capsule-render header, no github-readme-stats / streak / activity-graph /
-  trophy cards, no skill-icons tiles, no visitor counter. The snake is the only generated widget.
+- Generated widgets currently in play: the capsule-render banner, the readme-typing-svg header,
+  the self-hosted stats / top-langs / streak / activity-graph / summary cards, the trophy case,
+  the 3D contribution calendar, and the komarev profile-views counter at the bottom. No
+  skill-icons tiles — the tech stack is shields.io `for-the-badge` badges in four labelled groups.
 - Markdown tables use no alignment colons — GitHub's default (centered header, left body) is the look.
 
 ---
@@ -133,5 +144,6 @@ The README follows a deliberate flat, left-aligned, text-first style. If you ext
 - [ ] `grep -c "align=\"center\"" README.md` returns `0`
 - [ ] No `[bracketed]` placeholder remains outside of markdown link syntax
 - [ ] Repo is public and named exactly `Tan0610`
-- [ ] `Generate Snake` has run once and the `output` branch exists
+- [ ] `GitHub Profile 3D Contrib` has run once and `profile-3d-contrib/profile-night-view.svg`
+      and `profile-3d-contrib/profile-season-animate.svg` exist on `main`
 - [ ] LinkedIn and Gmail badges point at real destinations
