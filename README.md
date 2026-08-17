@@ -67,6 +67,17 @@ Selected for a global Web3 program focused on helping Web2 developers transition
 ## 📊 GitHub Stats
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-six-lake-40.vercel.app/api?username=Tan0610&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&theme=tokyonight" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-six-lake-40.vercel.app/api?username=Tan0610&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&theme=default" />
+  <img alt="Tan0610's GitHub stats" src="https://github-readme-stats-six-lake-40.vercel.app/api?username=Tan0610&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&theme=default" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-six-lake-40.vercel.app/api/top-langs/?username=Tan0610&layout=compact&hide_border=true&bg_color=00000000&theme=tokyonight" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-six-lake-40.vercel.app/api/top-langs/?username=Tan0610&layout=compact&hide_border=true&bg_color=00000000&theme=default" />
+  <img alt="Tan0610's most used languages" src="https://github-readme-stats-six-lake-40.vercel.app/api/top-langs/?username=Tan0610&layout=compact&hide_border=true&bg_color=00000000&theme=default" />
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Tan0610&hide_border=true&theme=tokyonight&background=00000000&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" />
   <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Tan0610&hide_border=true&theme=default&background=00000000&ring=1F6FEB&fire=1F6FEB&currStreakLabel=1F6FEB" />
   <img alt="Tan0610's contribution streak" src="https://streak-stats.demolab.com?user=Tan0610&hide_border=true&theme=default&background=00000000&ring=1F6FEB&fire=1F6FEB&currStreakLabel=1F6FEB" />
@@ -83,32 +94,18 @@ Selected for a global Web3 program focused on helping Web2 developers transition
   <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tan0610&theme=github" />
   <img alt="Top languages by repository" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tan0610&theme=github" />
 </picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Tan0610&theme=tokyonight" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Tan0610&theme=github" />
-  <img alt="Most committed languages" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Tan0610&theme=github" />
-</picture>
 
-<!--
-  Two more widgets are ready to drop in, but their hosts are down as of this commit:
-  · github-readme-stats.vercel.app  → HTTP 503 DEPLOYMENT_PAUSED (main stats card + top-langs card)
-  · github-profile-trophy.vercel.app → HTTP 402 DEPLOYMENT_DISABLED (Trophy Case)
-  Re-check the URLs, and if they return an SVG again, uncomment the blocks below.
+<!-- The stats and trophy cards run on self-hosted Vercel instances. They render an error card until the GH_TOKEN / PAT secrets are set on those deployments. -->
+
+![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
 
 ## 🏅 Trophy Case
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=Tan0610&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4&theme=tokyonight" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=Tan0610&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4&theme=flat" />
-  <img alt="Tan0610's GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=Tan0610&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4&theme=flat" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-eight-kohl.vercel.app/?username=Tan0610&no-frame=true&no-bg=true&column=7&theme=tokyonight" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy-eight-kohl.vercel.app/?username=Tan0610&no-frame=true&no-bg=true&column=7&theme=default" />
+  <img alt="Tan0610's GitHub trophies" src="https://github-profile-trophy-eight-kohl.vercel.app/?username=Tan0610&no-frame=true&no-bg=true&column=7&theme=default" />
 </picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Tan0610&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=tokyonight&bg_color=00000000&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Tan0610&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=default&bg_color=00000000&title_color=1F6FEB&icon_color=1F6FEB&text_color=24292f" />
-  <img alt="Tan0610's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Tan0610&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=default&bg_color=00000000&title_color=1F6FEB&icon_color=1F6FEB&text_color=24292f" />
-</picture>
--->
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
 
@@ -147,14 +144,14 @@ Selected for a global Web3 program focused on helping Web2 developers transition
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
 
-## 🐍 Contribution Snake
+## 🧊 Contribution Calendar
 
-<!-- These images 404 until the "Generate Snake" workflow has run once and created the `output` branch. -->
+<!-- These images 404 until the "GitHub Profile 3D Contrib" workflow has run once and committed the `profile-3d-contrib/` directory to main. -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tan0610/Tan0610/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tan0610/Tan0610/output/github-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Tan0610/Tan0610/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tan0610/Tan0610/main/profile-3d-contrib/profile-night-view.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tan0610/Tan0610/main/profile-3d-contrib/profile-season-animate.svg" />
+  <img alt="3D isometric contribution calendar" src="https://raw.githubusercontent.com/Tan0610/Tan0610/main/profile-3d-contrib/profile-season-animate.svg" />
 </picture>
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
@@ -164,3 +161,5 @@ Selected for a global Web3 program focused on helping Web2 developers transition
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tanmay-gaikwad06)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gaiktanmay05@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tan0610)
+
+![Profile views](https://komarev.com/ghpvc/?username=Tan0610&style=for-the-badge&color=1F6FEB)
