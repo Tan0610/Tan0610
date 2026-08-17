@@ -12,28 +12,28 @@
 
 ## 🚀 About Me
 
-- 🎓 **B.Tech in Computer Science & Engineering (Data Science) @ RCOEM, Nagpur** — Shri Ramdeobaba College of Engineering and Management, 2023–2027, CGPA 8.39/10.
-- 💼 **Software Developer Intern at ORLA3 (GECS Labs Limited, UK)** — working remotely on the production backend of a UK booking marketplace.
-- 🏆 **Three hackathon awards** — won the Filecoin 5th Birthday Web3 Hackathon with SONIC IP, and took Best ElevenLabs Integration plus Runner-Up on the Filecoin Foundation track with SafeGuard at MU Shanghai.
-- 🔭 **Currently building GymOS** — a multi-tenant gym-management SaaS that runs several gyms on one platform.
-- 🧠 **Grounded in CS fundamentals** — OOP, DBMS, operating systems and data structures & algorithms.
-- 🤝 **Open to SWE and backend internships** — and to new-grad roles from 2027.
+- 🎓 **B.Tech in Computer Science & Engineering (Data Science) @ RCOEM, Nagpur** - Shri Ramdeobaba College of Engineering and Management, 2023–2027, CGPA 8.39/10.
+- 💼 **Software Developer Intern at ORLA3 (GECS Labs Limited, UK)** - working remotely on the production backend of a UK booking marketplace.
+- 🏆 **Three hackathon awards** - won the Filecoin 5th Birthday Web3 Hackathon with SONIC IP, and took Best ElevenLabs Integration plus Runner-Up on the Filecoin Foundation track with SafeGuard at MU Shanghai.
+- 🔭 **Currently building GymOS** - a multi-tenant gym-management SaaS that runs several gyms on one platform.
+- 🧠 **Grounded in CS fundamentals** - OOP, DBMS, operating systems and data structures & algorithms.
+- 🤝 **Open to SWE and backend internships** - and to new-grad roles from 2027.
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
 
 ## 💼 Experience
 
-### 🚀 Software Developer Intern — ORLA3, GECS Labs Limited (Oct 2025 – Present)
+### 🚀 Software Developer Intern - ORLA3, GECS Labs Limited (Oct 2025 - Present)
 
 Remote role on orla3.com, a UK marketplace where clients book videographers, built on Next.js, Node.js, PostgreSQL, Prisma, Stripe and Firebase Auth.
 
-- ⚙️ **REST API endpoints** — built and integrated endpoints in the Node.js/Next.js backend and wired them to React screens for booking, payment and invoice features.
-- 🔐 **Authentication end-to-end** — email OTP verification, password reset and role-based access, so client, videographer and admin users each reach only their own sections.
-- 💳 **Stripe on both sides** — checkout and saved-card UI on the frontend, payment confirmation and refunds on the backend.
-- 🗄️ **Migration to PostgreSQL** — helped move off a document database using Prisma, writing the schema models and queries that made data relationships reliable.
-- 🧾 **PDF invoicing** — a backend feature that generates invoices for completed bookings and emails them to users, with unit tests for the features I owned.
+- ⚙️ **REST API endpoints** - built and integrated endpoints in the Node.js/Next.js backend and wired them to React screens for booking, payment and invoice features.
+- 🔐 **Authentication end-to-end** - email OTP verification, password reset and role-based access, so client, videographer and admin users each reach only their own sections.
+- 💳 **Stripe on both sides** - checkout and saved-card UI on the frontend, payment confirmation and refunds on the backend.
+- 🗄️ **Migration to PostgreSQL** - helped move off a document database using Prisma, writing the schema models and queries that made data relationships reliable.
+- 🧾 **PDF invoicing** - a backend feature that generates invoices for completed bookings and emails them to users, with unit tests for the features I owned.
 
-### 🎓 Fellow — Dev3pack Fellowship (Jan 2026 – Present)
+### 🎓 Fellow — Dev3pack Fellowship (Jan 2026 - Present)
 
 Selected for a global Web3 program focused on helping Web2 developers transition into Web3.
 
@@ -45,9 +45,9 @@ Selected for a global Web3 program focused on helping Web2 developers transition
 
 | Award | Project | Event |
 | --- | --- | --- |
-| 🏅 Best ElevenLabs Integration | SafeGuard — AI insurance claims automation | AI Loops HackerHouse, MU Shanghai · 2026 |
-| 🥈 Runner-Up, Filecoin Foundation Track | SafeGuard — AI insurance claims automation | AI Loops HackerHouse, MU Shanghai · 2026 |
-| 🥇 Winner | SONIC IP — decentralized audio storage with ownership verification | Filecoin 5th Birthday Web3 Hackathon · Oct 2025 |
+| 🏅 Best ElevenLabs Integration | SafeGuard - AI insurance claims automation | AI Loops HackerHouse, MU Shanghai · 2026 |
+| 🥈 Runner-Up, Filecoin Foundation Track | SafeGuard - AI insurance claims automation | AI Loops HackerHouse, MU Shanghai · 2026 |
+| 🥇 Winner | SONIC IP - decentralized audio storage with ownership verification | Filecoin 5th Birthday Web3 Hackathon · Oct 2025 |
 | 🏅 9th Place | National hackathon project | Sathacks, Thapar Institute of Engineering & Technology |
 | 💼 Internship Offer | Earned on technical merit | ETHGlobal New Delhi |
 
