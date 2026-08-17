@@ -1,10 +1,14 @@
 <!-- Profile README for github.com/Tan0610 -->
 
+![Tanmay Gaikwad](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,5,30&height=180&section=header&text=Tanmay%20Gaikwad&fontSize=48&fontColor=ffffff&fontAlignY=35&desc=Full-Stack%20%C2%B7%20Backend%20%C2%B7%20Web3&descSize=18&descAlignY=58&animation=fadeIn)
+
+![Software Developer Intern @ ORLA3 · 3x Hackathon Winner · Building GymOS · Web3 + AI Engineering](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=3B82F6&vCenter=true&width=520&height=45&lines=Software+Developer+Intern+%40+ORLA3;3x+Hackathon+Winner;Building+GymOS+%E2%80%94+multi-tenant+SaaS;Web3+%2B+AI+Engineering)
+
 # Hi there, I'm Tanmay Gaikwad 👋
 
 **Software Developer Intern @ ORLA3 · Full-Stack & Backend · 3× Hackathon Winner · Web3**
 
----
+![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
 
 ## 🚀 About Me
 
@@ -15,7 +19,7 @@
 - 🧠 **Grounded in CS fundamentals** — OOP, DBMS, operating systems and data structures & algorithms.
 - 🤝 **Open to SWE and backend internships** — and to new-grad roles from 2027.
 
----
+![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
 
 ## 💼 Experience
 
@@ -35,7 +39,7 @@ Selected for a global Web3 program focused on helping Web2 developers transition
 
 - 🌐 **Web2 to Web3 track** — applying an existing full-stack background to on-chain development alongside developers from around the world.
 
----
+![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
 
 ## 🏆 Achievements
 
@@ -47,7 +51,7 @@ Selected for a global Web3 program focused on helping Web2 developers transition
 | 🏅 9th Place | National hackathon project | Sathacks, Thapar Institute of Engineering & Technology |
 | 💼 Internship Offer | Earned on technical merit | ETHGlobal New Delhi |
 
----
+![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
 
 ## 📌 Featured Projects
 
@@ -58,46 +62,95 @@ Selected for a global Web3 program focused on helping Web2 developers transition
 | 🏋️ **GymOS** | `Next.js, TypeScript, Supabase/Postgres, Razorpay` | Multi-tenant gym-management SaaS serving several gyms on one platform. Covers memberships, renewals, freezes and QR check-in with live occupancy, plus cash/UPI/card collection, GST invoices and online payments. Data is isolated per tenant **at the database level**, so one gym can never read another's records. |
 | 🌩️ **[Skyfall](https://github.com/Tan0610/Skyfall_v.1)** | `React, TypeScript, Express, PostgreSQL, Drizzle, Chainlink, Flow EVM` | Weather-derivatives dApp for trading rainfall and wind futures with community mutual-aid pools. Combines live meteorological feeds with **hybrid Chainlink oracle networks across multiple chains**, so settlement uses verifiable off-chain data. |
 
----
+![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
+
+## 📊 GitHub Stats
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Tan0610&hide_border=true&theme=tokyonight&background=00000000&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Tan0610&hide_border=true&theme=default&background=00000000&ring=1F6FEB&fire=1F6FEB&currStreakLabel=1F6FEB" />
+  <img alt="Tan0610's contribution streak" src="https://streak-stats.demolab.com?user=Tan0610&hide_border=true&theme=default&background=00000000&ring=1F6FEB&fire=1F6FEB&currStreakLabel=1F6FEB" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Tan0610&bg_color=00000000&color=c9d1d9&line=3B82F6&point=3B82F6&area=true&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Tan0610&bg_color=00000000&color=24292f&line=1F6FEB&point=1F6FEB&area=true&hide_border=true" />
+  <img alt="Tan0610's contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Tan0610&bg_color=00000000&color=24292f&line=1F6FEB&point=1F6FEB&area=true&hide_border=true" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tan0610&theme=tokyonight" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tan0610&theme=github" />
+  <img alt="Top languages by repository" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tan0610&theme=github" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Tan0610&theme=tokyonight" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Tan0610&theme=github" />
+  <img alt="Most committed languages" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Tan0610&theme=github" />
+</picture>
+
+<!--
+  Two more widgets are ready to drop in, but their hosts are down as of this commit:
+  · github-readme-stats.vercel.app  → HTTP 503 DEPLOYMENT_PAUSED (main stats card + top-langs card)
+  · github-profile-trophy.vercel.app → HTTP 402 DEPLOYMENT_DISABLED (Trophy Case)
+  Re-check the URLs, and if they return an SVG again, uncomment the blocks below.
+
+## 🏅 Trophy Case
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=Tan0610&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4&theme=tokyonight" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=Tan0610&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4&theme=flat" />
+  <img alt="Tan0610's GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=Tan0610&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4&theme=flat" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Tan0610&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=tokyonight&bg_color=00000000&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Tan0610&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=default&bg_color=00000000&title_color=1F6FEB&icon_color=1F6FEB&text_color=24292f" />
+  <img alt="Tan0610's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Tan0610&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=default&bg_color=00000000&title_color=1F6FEB&icon_color=1F6FEB&text_color=24292f" />
+</picture>
+-->
+
+![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
 
 ## 🛠️ Tech Stack
 
 **Languages**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,python,java,cpp&perline=5&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,python,java,cpp&perline=5&theme=light" />
+  <img alt="TypeScript, JavaScript, Python, Java, C++" src="https://skillicons.dev/icons?i=ts,js,python,java,cpp&perline=5&theme=light" />
+</picture>
 
 **Frontend & Backend**
 
-![React](https://img.shields.io/badge/React-087EA4?style=for-the-badge&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,nodejs,spring,tailwind&perline=5&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react,nextjs,nodejs,spring,tailwind&perline=5&theme=light" />
+  <img alt="React, Next.js, Node.js, Spring Boot, Tailwind CSS" src="https://skillicons.dev/icons?i=react,nextjs,nodejs,spring,tailwind&perline=5&theme=light" />
+</picture>
+
+Also working with **Fastify** on the backend — see ClaimsAgent above.
 
 **Databases & Tools**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,supabase,mysql,prisma,firebase,docker,git&perline=7&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres,supabase,mysql,prisma,firebase,docker,git&perline=7&theme=light" />
+  <img alt="PostgreSQL, Supabase, MySQL, Prisma, Firebase, Docker, Git" src="https://skillicons.dev/icons?i=postgres,supabase,mysql,prisma,firebase,docker,git&perline=7&theme=light" />
+</picture>
 
 **AI & Web3**
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Hardhat](https://img.shields.io/badge/Hardhat-2E2E2E?style=for-the-badge&logo=ethereum&logoColor=white)
-![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=solidity,ipfs&perline=2&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=solidity,ipfs&perline=2&theme=light" />
+  <img alt="Solidity, IPFS" src="https://skillicons.dev/icons?i=solidity,ipfs&perline=2&theme=light" />
+</picture>
 
----
+Plus **OpenAI**, **Hardhat** and **Ethereum** — no skillicons tiles exist for these yet.
+
+![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
 
 ## 🐍 Contribution Snake
 
@@ -109,7 +162,7 @@ Selected for a global Web3 program focused on helping Web2 developers transition
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Tan0610/Tan0610/output/github-snake.svg" />
 </picture>
 
----
+![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
 
 ## 📫 Let's Connect
 
