@@ -67,9 +67,9 @@ Selected for a global Web3 program focused on helping Web2 developers transition
 ## 📊 GitHub Stats
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-six-lake-40.vercel.app/api?username=Tan0610&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&theme=tokyonight" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-six-lake-40.vercel.app/api?username=Tan0610&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&theme=default" />
-  <img alt="Tan0610's GitHub stats" src="https://github-readme-stats-six-lake-40.vercel.app/api?username=Tan0610&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&theme=default" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-six-lake-40.vercel.app/api?username=Tan0610&show_icons=true&count_private=true&hide_border=true&bg_color=00000000&theme=tokyonight" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-six-lake-40.vercel.app/api?username=Tan0610&show_icons=true&count_private=true&hide_border=true&bg_color=00000000&theme=default" />
+  <img alt="Tan0610's GitHub stats" src="https://github-readme-stats-six-lake-40.vercel.app/api?username=Tan0610&show_icons=true&count_private=true&hide_border=true&bg_color=00000000&theme=default" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-six-lake-40.vercel.app/api/top-langs/?username=Tan0610&layout=compact&hide_border=true&bg_color=00000000&theme=tokyonight" />
