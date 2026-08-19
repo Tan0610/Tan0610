@@ -6,7 +6,7 @@
 
 # Hi there, I'm Tanmay Gaikwad 👋
 
-**Software Developer Intern @ ORLA3 · Full-Stack & Backend · 3× Hackathon Winner · Web3**
+**Software Developer Intern @ ORLA3 · Full-Stack & Backend · 4× Hackathon Winner · Web3**
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=3&section=header)
 
